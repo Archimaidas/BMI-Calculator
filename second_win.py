@@ -39,14 +39,14 @@ class TestWin(QWidget):
         self.line_weight = QLineEdit(txt_hintweight)
 
         self.l_line = QVBoxLayout()
-        self.l_line.addWidget(self.text_name, alignment=Qt.AlignLeft)
-        self.l_line.addWidget(self.line_name, alignment=Qt.AlignLeft)
-        self.l_line.addWidget(self.text_age, alignment=Qt.AlignLeft)
-        self.l_line.addWidget(self.line_age, alignment=Qt.AlignLeft)
-        self.l_line.addWidget(self.text_height, alignment=Qt.AlignLeft)
-        self.l_line.addWidget(self.line_height, alignment=Qt.AlignLeft)
-        self.l_line.addWidget(self.text_weight, alignment=Qt.AlignLeft)
-        self.l_line.addWidget(self.line_weight, alignment=Qt.AlignLeft)
+        self.l_line.addWidget(self.text_name, alignment=Qt.AlignCenter)
+        self.l_line.addWidget(self.line_name, alignment=Qt.AlignCenter)
+        self.l_line.addWidget(self.text_age, alignment=Qt.AlignCenter)
+        self.l_line.addWidget(self.line_age, alignment=Qt.AlignCenter)
+        self.l_line.addWidget(self.text_height, alignment=Qt.AlignCenter)
+        self.l_line.addWidget(self.line_height, alignment=Qt.AlignCenter)
+        self.l_line.addWidget(self.text_weight, alignment=Qt.AlignCenter)
+        self.l_line.addWidget(self.line_weight, alignment=Qt.AlignCenter)
 
         self.l_line.addWidget(self.btn_next, alignment=Qt.AlignCenter)
 
